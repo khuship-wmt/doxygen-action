@@ -48,4 +48,6 @@ with:
     working-directory: 'submodule/'
     doxyfile-path: 'docs/Doxygen'
     enable-latex: true
+    **NOTE:** If you are using dot/graphviz in your doxygen config to generate diagrams the only fonts installed, and hence can be used are those in the [GNU FreeFont](https://www.gnu.org/software/freefont/) package (FreeSans, FreeMono and FreeSerif) or in any package listed in `additional-packages`.
+
 ```
